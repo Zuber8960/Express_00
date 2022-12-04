@@ -1,0 +1,35 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/646/235/690/icons-social-media-social-media-wallpaper-preview.jpg);
+}
+
+.container {
+    border-radius: 20px;
+    border-style: groove;
+    border-color: orange;
+    background-color: rgb(216, 224, 216);
+    margin: 50px 380px;
+    padding: 50px 10px 10px 10px;
+}
+
+input,
+button {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+}
+/* 
+.box {
+    display: flex;
+} */
+
+h2 {
+    width: 21%;
+    color: green;
+    background-color: azure;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+
+<body>
+    <h2>Designed by Zuber Ahmad.</h2>
+    <div class="container">
+        <H1 style="text-align: center; color: green;">Book a call</H1>
+        <h5 style="text-align: center;">Book a call slot our representative will call you within 1hr of selected time.
+        </h5><br>
+        <hr>
+        <form id="myForm" action="/success" method="POST">
+            <label for="name">Name:</label>
+            <br>
+            <input id="name" name="name" placeholder="Enter your name">
+            <br><br>
+            <label for="email">Email:</label>
+            <br>
+            <input id="email" type="email" name="email" placeholder="Enter your email">
+            <br><br>
+
+            <button type="submit" style="color: white;background-color:green;">GET A CALL</button>
+
+        </form>
+    </div>
+</body>
+<script>
+    const form = document.querySelector("#myForm");
+    const nameInput = document.querySelector("#name");
+    const emailInput = document.querySelector("#email");
+
+    form.addEventListener("submit", onSubmit);
+    function onSubmit(e) {
+        if (nameInput.value == "" || emailInput.value == "") {
+            alert("Incoplete details!" + "\n" + "Please fill the form correctly.");
+            e.preventDefault();
+        }
+    }
+
+
+</script>
+
+</html>
