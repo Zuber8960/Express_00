@@ -1,7 +1,5 @@
 const express = require('express');
 
-// const rootDir = require('../views/contact-us.html')
-
 const router = express.Router();
 
 const contactController = require('../controllers/contact');

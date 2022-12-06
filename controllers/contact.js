@@ -5,6 +5,6 @@ exports.contactUsPage = (req, res, next) => {
 };
 
 exports.successPage = (req, res, next) => {
-    res.send('<body><h1>Congratulations !<br>Form filled Successfully<br>You will be contacted shortly.<br>😊💻👍<h1></body>')
+    res.send('<body><h1>Congratulations !<br>Form filled Successfully<br>You will be contacted shortly.<br>😊💻👍</h1></body>')
 };
 
